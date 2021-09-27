@@ -1,0 +1,759 @@
+{
+	"info": {
+		"_postman_id": "c80e47bb-9e8d-4dcc-b06b-305195c5f695",
+		"name": "Pinheiro Neto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "area",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/area/agronegocio",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"area",
+						"agronegocio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "areas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/areas",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"areas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "faq",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/faq",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"faq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cities",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/cities",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"cities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lawyer_types",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/lawyer_types",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"lawyer_types"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lawyers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/lawyers?cache=1258",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"lawyers"
+					],
+					"query": [
+						{
+							"key": "cache",
+							"value": "1258",
+							"description": "Numero randomico pra ordenar randomicamente, se omitido ordena por ordem alfabética"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lawyer/{slug}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/lawyer/yuka-ono",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"lawyer",
+						"yuka-ono"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lawyers/filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/lawyers/filter?letter=J&lawyer_type=1&city=2&area=5",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"lawyers",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "letter",
+							"value": "J"
+						},
+						{
+							"key": "lawyer_type",
+							"value": "1",
+							"description": "Categoria do advogado (ver endpoint lawyer_types para pegar os nomes/ids)"
+						},
+						{
+							"key": "city",
+							"value": "2",
+							"description": "Cidade  (ver endpoint cities para pegar os nomes/ids)"
+						},
+						{
+							"key": "area",
+							"value": "5",
+							"description": "Area (ver o endpoint areas para pegar os nomes/ids)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsletter",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\",\r\n    \"ip\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/newsletter",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"newsletter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsletter/most_viewed",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/newsletter/most_viewed",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"newsletter",
+						"most_viewed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "offices",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/offices",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"offices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/pages",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"pages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "page/{slug}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/page/home",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"page",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "privacy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/privacy",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"privacy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "terms",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/terms",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"terms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "timeline",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ludmilla\",\r\n    \"email\": \"ludmilla.carvalho@pravy.com.br\",\r\n    \"areas\": [1,4,7],\r\n    \"lang\": \"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://adminpinheironeto.pravy.com.br/api/timeline",
+					"protocol": "http",
+					"host": [
+						"adminpinheironeto",
+						"pravy",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"timeline"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
