@@ -1,0 +1,143 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './select2.css'; 
+
+/* html{
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  line-height:1.5;
+} */
+
+/* remove o outline */
+.form-checkbox:focus,.form-input:focus, .form-select:focus, button:focus {
+  outline: none ! important;
+  box-shadow: none; 
+  border-color: none;
+}
+
+/* loader */
+.loader {
+	border-top-color: #25536b;
+	-webkit-animation: spinner 1.5s linear infinite;
+	animation: spinner 1.5s linear infinite;
+}
+
+.theme-dark .dark\:loader {
+	border-top-color: #A13D36;
+	-webkit-animation: spinner 1.5s linear infinite;
+	animation: spinner 1.5s linear infinite;
+}
+
+/*paginator*/
+.custom-paginator button:disabled{
+  opacity: 0;
+}
+
+/* Editor */
+.ProseMirror {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-color: #e2e8f0;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    padding-top: 0.5rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+	/* min-height: 5rem; */
+}
+
+.ProseMirror-focused, .ProseMirror:focus, .ProseMirror:active {
+	outline: none ! important;
+	border-inline: none;
+  	box-shadow: none; 
+  	border-color: none;
+	border:1px solid #859BA6;
+}
+
+.theme-dark .ProseMirror {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-color: #4c4f52;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    padding-top: 0.5rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+	background-color: #24262d;
+}
+
+.theme-dark .dark\:ProseMirror-focused, .theme-dark .dark\:ProseMirror:focus, .ProseMirror:active {
+	border:1px solid #707275;
+}
+
+.ProseMirror ol, .ProseMirror ul {
+    /* list-style: none; */
+    margin: 1rem;
+}
+
+.ProseMirror ol{
+	list-style-type: decimal;
+}
+
+.ProseMirror ul{
+	list-style-type: disc;
+}
+
+.ProseMirror p{
+	margin: 1rem 0;
+}
+
+.ProseMirror a{
+	text-decoration: underline;
+  font-weight: 500;
+}
+
+
+.theme-dark .dark\:svg_fix{
+	filter: invert(1);
+}
+
+.sel_multiple input{
+	display: none;
+}
+
+.subpages{
+  /* margin-left: 1rem; */
+  font-size: 0.8rem;
+}
+
+/* tooltip */
+
+.tip{
+  display: inline-block;
+}
+
+
+.tippy-box{
+  background-color: #d5d6d7;
+  padding: 0.5rem;
+  /* color:#fff; */
+  color:#121317;
+}
+.tippy-arrow{
+  color: #d5d6d7;
+}
+
+/*.theme-dark .tippy-box{
+  background-color:#244B5F;
+  color:#fff;
+}
+
+.theme-dark .tippy-arrow{
+  color:#244B5F
+}*/

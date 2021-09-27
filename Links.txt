@@ -1,0 +1,130 @@
+Links
+
+https://miro.com/app/board/o9J_l-FWzl0=/
+
+Guia de identidade da marca
+https://drive.google.com/file/d/1FPmDBZBFA2aOV43WEzd5f-7J7oAOLKfK/view
+
+Ícones
+https://heroicons.dev
+
+
+https://github.com/miten5/larawind
+https://windmill-dashboard.vercel.app
+https://github.com/estevanmaito/windmill-dashboard
+
+https://tailwindcss.com/docs
+
+Cores
+file:///C:/Users/Ludmilla/Downloads/cores%20primarias.png
+file:///C:/Users/Ludmilla/Downloads/cores%20secund%C3%A1rias.
+
+
+XD
+Home
+https://xd.adobe.com/view/06d58883-7ecc-4e74-a2ba-31b9a97a89e4-5386/
+
+Desk:
+destaques: 1920x700
+calls 1590x632  exceto At Jurídicas 942x946
+
+Mobile:
+destaques 375x700
+calls - 340x222 exceto At Jurídicas 220x220
+
+
+
+Menu
+https://xd.adobe.com/view/9ddec1af-cc48-475f-9efa-e6f9dc16297d-c88d/
+Busca
+https://xd.adobe.com/view/3b798d89-d0af-4b50-8519-604e54e931a5-6e2a/screen/088b93c6-12fb-459f-895e-7d8af62df45d
+
+Advogados
+https://xd.adobe.com/view/1ae1f6e1-7f10-4ed0-8d96-2e867a0dcf05-4fb2/
+Detatalhe do Advogados
+https://xd.adobe.com/view/3dcc8f6a-30e6-47c9-8629-215f4eef3461-689f/
+Advogados interna todos os assuntos
+https://xd.adobe.com/view/7129d349-f64c-4837-97c8-22d23f98591a-247a/
+
+Desk:
+banner 1920x580
+adv 400x568
+alumini 1590x584 esq
+
+mobile
+banner 375x500
+
+
+
+Eventos
+https://xd.adobe.com/view/f63baf61-13d8-4954-aee2-f508e3376e7e-a368/
+Eventos interna precencial
+https://xd.adobe.com/view/c8df8452-ae0a-45b8-b38b-d7edb559fb3b-9d8c/
+Eventos interna online
+https://xd.adobe.com/view/e4ce6292-cdaf-478b-9767-003419f23339-b19d/
+
+
+
+
+
+
+Anotações
+is_template
+is_content
+
+colocar titulo SEO em todas as paginas
+
+Drive com os textos
+https://drive.google.com/drive/folders/12iXOhYnaCzpTk03YNbpHROYJ6juMZGfU
+
+
+Advogados
+https://drive.google.com/drive/folders/1sTZz6JappSi1WpKHYhuLOOtdgw0SYMkm
+
+Sócios/consultores/associados
+
+
+
+
+
+
+randoff
+https://medium.com/aela/design-handoff-o-que-%C3%A9-e-como-fazer-de-forma-bem-sucedida-d7de8017b244
+
+
+IMport consultores
+
+
+Imagem de banner mobile
+Poder subir video no banner (imagem ou video) mp4 ogg webm
+Newsletter - receber o ip do usuário
+
+
+
+premios escritorios
+https://docs.google.com/spreadsheets/d/16uuAfnu2yCdTRgj7p8tog0ib2ffzVBw3RGjx_5fAJ_s/edit#gid=0
+
+Textos das áreas
+https://drive.google.com/drive/folders/1NMLTifVM_OZzwRvakdardJheDQm5NSo2
+
+
+Falta reconhecimentos do escritório
+falta api - paginas, subpages, advogados, eventos, cadastro de eventos
+
+Advogados API - precisa relacionar o conteúdo (boletim, noticia, etc), verificar como vai ficar advogados que atual na mesma área
+
+
+
+Conteúdo - arquivos
+Verificar o menu responsivo
+colocar o maps em eventos
+
+Areas de atuacao precisam de um resumo
+Falta curriculo em advogados
+Home - responsabilidade social - de onde vem o conteúdo? Onde está o resto do carrossel?
+Log
+deslogar em 15 min
+
+
+ ssh -i pravyhml.pem ubuntu@pinheironeto.pravy.com.br
+ssh -i "pravyhml.pem" ubuntu@ec2-18-230-149-78.sa-east-1.compute.amazonaws.com
